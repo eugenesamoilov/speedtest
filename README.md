@@ -1,1 +1,19 @@
 # speedtest
+
+### How to use
+
+docker run --rm eugenesamoilov/speedtest 
+
+```sh
+root@thinkpad:~# docker run --rm eugenesamoilov/speedtest
+Retrieving speedtest.net configuration...
+Testing from Rostelecom (222.100.105.301)...
+Retrieving speedtest.net server list...
+Selecting best server based on ping...
+Hosted by Rostelecom (Yakutsk) [0.23 km]: 91.351 ms
+Testing download speed................................................................................
+Download: 45.12 Mbit/s
+Testing upload speed......................................................................................................
+Upload: 40.01 Mbit/s
+root@thinkpad:~# 
+```
